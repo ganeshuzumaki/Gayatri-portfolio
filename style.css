@@ -1,0 +1,75 @@
+/* Basic styling for the portfolio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.profile-img {
+  width: 200px;         /* Increased from 150px → 200px */
+  height: 200px;        /* Maintain a perfect square for a circular look */
+  border-radius: 50%;   /* Makes it circular */
+  border: 4px solid #333;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+h1 {
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.college {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.info, .about {
+  text-align: left;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}
